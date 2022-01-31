@@ -10,11 +10,15 @@ namespace Diffrence_Write_and_WriteLine
     {
         static void Main(string[] args)
         {
+            Diffrence();
 
+            Console.ReadLine();
         }
         public static void Diffrence()
         {
-            Console.WriteLine("Hello World");
+            Console.Write("Hello ");
+            Console.Write("World ");
+            Console.Write("!!!");
             
         }
     }
